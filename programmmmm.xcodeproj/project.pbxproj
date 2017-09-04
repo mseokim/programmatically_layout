@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01016BDA1F5AEFD500691B65 /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01016BD51F5AEFD500691B65 /* clock.jpg */; };
-		01016BDB1F5AEFD500691B65 /* ilbe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01016BD61F5AEFD500691B65 /* ilbe.jpg */; };
-		01016BDC1F5AEFD500691B65 /* owl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01016BD71F5AEFD500691B65 /* owl.jpg */; };
-		01016BDD1F5AEFD500691B65 /* shangus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01016BD81F5AEFD500691B65 /* shangus.jpg */; };
-		01016BDE1F5AEFD500691B65 /* stone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01016BD91F5AEFD500691B65 /* stone.jpg */; };
+		01410FA71F5BDB5200E25B5E /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01410FA21F5BDB5200E25B5E /* apple.jpg */; };
+		01410FA81F5BDB5200E25B5E /* apple_small.gif in Resources */ = {isa = PBXBuildFile; fileRef = 01410FA31F5BDB5200E25B5E /* apple_small.gif */; };
+		01410FA91F5BDB5200E25B5E /* ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01410FA41F5BDB5200E25B5E /* ipad.jpg */; };
+		01410FAA1F5BDB5200E25B5E /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01410FA51F5BDB5200E25B5E /* iphone.jpg */; };
+		01410FAB1F5BDB5200E25B5E /* macbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01410FA61F5BDB5200E25B5E /* macbook.jpg */; };
 		015E29431F5A9BFF00787EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E29421F5A9BFF00787EFA /* AppDelegate.swift */; };
 		015E29451F5A9BFF00787EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E29441F5A9BFF00787EFA /* ViewController.swift */; };
 		015E29481F5A9BFF00787EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015E29461F5A9BFF00787EFA /* Main.storyboard */; };
 		015E294A1F5A9BFF00787EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015E29491F5A9BFF00787EFA /* Assets.xcassets */; };
 		015E294D1F5A9BFF00787EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015E294B1F5A9BFF00787EFA /* LaunchScreen.storyboard */; };
+		01C6C5BD1F5CF3FA005065A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C6C5BC1F5CF3FA005065A1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01016BD51F5AEFD500691B65 /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clock.jpg; path = ../../clock.jpg; sourceTree = "<group>"; };
-		01016BD61F5AEFD500691B65 /* ilbe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ilbe.jpg; path = ../../ilbe.jpg; sourceTree = "<group>"; };
-		01016BD71F5AEFD500691B65 /* owl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = owl.jpg; path = ../../owl.jpg; sourceTree = "<group>"; };
-		01016BD81F5AEFD500691B65 /* shangus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shangus.jpg; path = ../../shangus.jpg; sourceTree = "<group>"; };
-		01016BD91F5AEFD500691B65 /* stone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stone.jpg; path = ../../stone.jpg; sourceTree = "<group>"; };
+		01410FA21F5BDB5200E25B5E /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apple.jpg; path = ../../apple.jpg; sourceTree = "<group>"; };
+		01410FA31F5BDB5200E25B5E /* apple_small.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = apple_small.gif; path = ../../apple_small.gif; sourceTree = "<group>"; };
+		01410FA41F5BDB5200E25B5E /* ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ipad.jpg; path = ../../ipad.jpg; sourceTree = "<group>"; };
+		01410FA51F5BDB5200E25B5E /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone.jpg; path = ../../iphone.jpg; sourceTree = "<group>"; };
+		01410FA61F5BDB5200E25B5E /* macbook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = macbook.jpg; path = ../../macbook.jpg; sourceTree = "<group>"; };
 		015E293F1F5A9BFF00787EFA /* programmmmm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmmmm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015E29421F5A9BFF00787EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015E29441F5A9BFF00787EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		015E29491F5A9BFF00787EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015E294C1F5A9BFF00787EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		015E294E1F5A9BFF00787EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C6C5BC1F5CF3FA005065A1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +68,16 @@
 			children = (
 				015E29421F5A9BFF00787EFA /* AppDelegate.swift */,
 				015E29441F5A9BFF00787EFA /* ViewController.swift */,
+				01C6C5BC1F5CF3FA005065A1 /* SecondViewController.swift */,
 				015E29461F5A9BFF00787EFA /* Main.storyboard */,
 				015E29491F5A9BFF00787EFA /* Assets.xcassets */,
 				015E294B1F5A9BFF00787EFA /* LaunchScreen.storyboard */,
 				015E294E1F5A9BFF00787EFA /* Info.plist */,
-				01016BD51F5AEFD500691B65 /* clock.jpg */,
-				01016BD61F5AEFD500691B65 /* ilbe.jpg */,
-				01016BD71F5AEFD500691B65 /* owl.jpg */,
-				01016BD81F5AEFD500691B65 /* shangus.jpg */,
-				01016BD91F5AEFD500691B65 /* stone.jpg */,
+				01410FA21F5BDB5200E25B5E /* apple.jpg */,
+				01410FA31F5BDB5200E25B5E /* apple_small.gif */,
+				01410FA41F5BDB5200E25B5E /* ipad.jpg */,
+				01410FA51F5BDB5200E25B5E /* iphone.jpg */,
+				01410FA61F5BDB5200E25B5E /* macbook.jpg */,
 			);
 			path = programmmmm;
 			sourceTree = "<group>";
@@ -140,13 +143,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				015E294D1F5A9BFF00787EFA /* LaunchScreen.storyboard in Resources */,
-				01016BDE1F5AEFD500691B65 /* stone.jpg in Resources */,
-				01016BDB1F5AEFD500691B65 /* ilbe.jpg in Resources */,
-				01016BDC1F5AEFD500691B65 /* owl.jpg in Resources */,
-				01016BDD1F5AEFD500691B65 /* shangus.jpg in Resources */,
-				01016BDA1F5AEFD500691B65 /* clock.jpg in Resources */,
+				01410FA91F5BDB5200E25B5E /* ipad.jpg in Resources */,
 				015E294A1F5A9BFF00787EFA /* Assets.xcassets in Resources */,
+				01410FA71F5BDB5200E25B5E /* apple.jpg in Resources */,
+				01410FAA1F5BDB5200E25B5E /* iphone.jpg in Resources */,
 				015E29481F5A9BFF00787EFA /* Main.storyboard in Resources */,
+				01410FAB1F5BDB5200E25B5E /* macbook.jpg in Resources */,
+				01410FA81F5BDB5200E25B5E /* apple_small.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C6C5BD1F5CF3FA005065A1 /* SecondViewController.swift in Sources */,
 				015E29451F5A9BFF00787EFA /* ViewController.swift in Sources */,
 				015E29431F5A9BFF00787EFA /* AppDelegate.swift in Sources */,
 			);

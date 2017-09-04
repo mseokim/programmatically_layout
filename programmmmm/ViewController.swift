@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,31 +20,45 @@ class ViewController: UIViewController {
     
     func setUI() {
         let imageView = UIImageView(frame: CGRect(x: 0, y: 24, width: view.frame.width, height: view.frame.height * 0.4 - 24))
-        imageView.image = UIImage(named: "ilbe.jpg")
+        imageView.image = #imageLiteral(resourceName: "apple.jpg")
 //        imageView.contentMode = .scaleAspectFill
         view.addSubview(imageView)
         
-        let descriptionView = DescriptionView(frame: CGRect(x: 10, y: view.frame.height * 0.4 + 20, width: view.frame.width - 20, height: view.frame.height * 0.25), logo: #imageLiteral(resourceName: "shangus.jpg"), name: "sh무gus", content: "집권 당시 네티즌 사이에서 노무현과 전혀 무관한 인터넷 기사에 대해서도 '이게 다 노무현 때문이다'라는 댓글을 다는 것이 유행했다. 진담과 농담이 섞인 이러한 풍조의 발생은 각종 정책과 사건마다 대통령을 비판하는 데 주력했던 주요 언론사의 논조에 힘입은 바 크다.")
+        let descriptionView = DescriptionView(frame: CGRect(x: 10, y: view.frame.height * 0.4 + 20, width: view.frame.width - 20, height: view.frame.height * 0.25), logo: #imageLiteral(resourceName: "apple_small.gif"), name: "Apple", content: "God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. God group. ")
         descriptionView.layer.shadowColor = UIColor.black.cgColor
         descriptionView.layer.shadowOpacity = 0.2
         descriptionView.layer.shadowOffset = CGSize(width: 0, height: 1)
         descriptionView.layer.shadowRadius = 2
         view.addSubview(descriptionView)
         
-        let someImageView = SomeImageView(frame: CGRect(x: 10, y: view.frame.height * 0.65 + 40, width: view.frame.width - 20, height: view.frame.height * 0.2), image1: #imageLiteral(resourceName: "clock.jpg"), image2: #imageLiteral(resourceName: "owl.jpg"), image3: #imageLiteral(resourceName: "stone.jpg"))
+        let someImageView = SomeImageView(frame: CGRect(x: 10, y: view.frame.height * 0.65 + 40, width: view.frame.width - 20, height: view.frame.height * 0.2), image1: #imageLiteral(resourceName: "macbook.jpg"), image2: #imageLiteral(resourceName: "ipad.jpg"), image3: #imageLiteral(resourceName: "iphone.jpg"))
         someImageView.layer.shadowColor = UIColor.black.cgColor
         someImageView.layer.shadowOpacity = 0.2
         someImageView.layer.shadowOffset = CGSize(width: 0, height: 1)
         someImageView.layer.shadowRadius = 2
         view.addSubview(someImageView)
+        
+        let button = UIButton(frame: CGRect(x: 10, y: view.frame.height * 0.9 + 20, width: view.frame.width - 20, height: view.frame.height * 0.05))
+        button.setTitle("다음", for: .normal)
+        if button.isEnabled {
+        button.setTitleColor(UIColor.black, for: .normal)
+        } else {
+            button.setTitleColor(UIColor.gray, for: .normal)
+        }
+        button.backgroundColor = .white
+        button.layer.cornerRadius = 10
+        button.layer.shadowColor = UIColor.black.cgColor
+        button.layer.shadowOpacity = 0.2
+        button.layer.shadowOffset = CGSize(width: 0, height: 1)
+        button.layer.shadowRadius = 2
+        button.addTarget(SecondViewController(), action: #selector(buttonClicked), for: .touchUpInside)
+        
+        view.addSubview(button)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func buttonClicked() {
+        print("SEX")
     }
-
-
 }
 
 class DescriptionView: UIView {
@@ -114,4 +127,3 @@ class SomeImageView: UIView {
         }
     }
 }
-
