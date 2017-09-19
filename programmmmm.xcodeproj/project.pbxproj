@@ -14,10 +14,10 @@
 		01410FAB1F5BDB5200E25B5E /* macbook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01410FA61F5BDB5200E25B5E /* macbook.jpg */; };
 		015E29431F5A9BFF00787EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E29421F5A9BFF00787EFA /* AppDelegate.swift */; };
 		015E29451F5A9BFF00787EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E29441F5A9BFF00787EFA /* ViewController.swift */; };
-		015E29481F5A9BFF00787EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015E29461F5A9BFF00787EFA /* Main.storyboard */; };
 		015E294A1F5A9BFF00787EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015E29491F5A9BFF00787EFA /* Assets.xcassets */; };
 		015E294D1F5A9BFF00787EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015E294B1F5A9BFF00787EFA /* LaunchScreen.storyboard */; };
 		01C6C5BD1F5CF3FA005065A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C6C5BC1F5CF3FA005065A1 /* SecondViewController.swift */; };
+		01F842EB1F6105AB008F5602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F842EA1F6105AB008F5602 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		015E293F1F5A9BFF00787EFA /* programmmmm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = programmmmm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015E29421F5A9BFF00787EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015E29441F5A9BFF00787EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		015E29471F5A9BFF00787EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		015E29491F5A9BFF00787EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015E294C1F5A9BFF00787EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		015E294E1F5A9BFF00787EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C6C5BC1F5CF3FA005065A1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		01F842EA1F6105AB008F5602 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,6 @@
 				015E29421F5A9BFF00787EFA /* AppDelegate.swift */,
 				015E29441F5A9BFF00787EFA /* ViewController.swift */,
 				01C6C5BC1F5CF3FA005065A1 /* SecondViewController.swift */,
-				015E29461F5A9BFF00787EFA /* Main.storyboard */,
 				015E29491F5A9BFF00787EFA /* Assets.xcassets */,
 				015E294B1F5A9BFF00787EFA /* LaunchScreen.storyboard */,
 				015E294E1F5A9BFF00787EFA /* Info.plist */,
@@ -78,6 +77,7 @@
 				01410FA41F5BDB5200E25B5E /* ipad.jpg */,
 				01410FA51F5BDB5200E25B5E /* iphone.jpg */,
 				01410FA61F5BDB5200E25B5E /* macbook.jpg */,
+				01F842EA1F6105AB008F5602 /* Main.storyboard */,
 			);
 			path = programmmmm;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 				015E294D1F5A9BFF00787EFA /* LaunchScreen.storyboard in Resources */,
 				01410FA91F5BDB5200E25B5E /* ipad.jpg in Resources */,
 				015E294A1F5A9BFF00787EFA /* Assets.xcassets in Resources */,
+				01F842EB1F6105AB008F5602 /* Main.storyboard in Resources */,
 				01410FA71F5BDB5200E25B5E /* apple.jpg in Resources */,
 				01410FAA1F5BDB5200E25B5E /* iphone.jpg in Resources */,
-				015E29481F5A9BFF00787EFA /* Main.storyboard in Resources */,
 				01410FAB1F5BDB5200E25B5E /* macbook.jpg in Resources */,
 				01410FA81F5BDB5200E25B5E /* apple_small.gif in Resources */,
 			);
@@ -169,14 +169,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		015E29461F5A9BFF00787EFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				015E29471F5A9BFF00787EFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		015E294B1F5A9BFF00787EFA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

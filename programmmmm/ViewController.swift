@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 238/255, green: 242/255, blue: 245/255, alpha: 1)
@@ -18,7 +19,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.isToolbarHidden = true
+    }
+    
+    
     func setUI() {
+        
         let imageView = UIImageView(frame: CGRect(x: 0, y: 24, width: view.frame.width, height: view.frame.height * 0.4 - 24))
         imageView.image = #imageLiteral(resourceName: "apple.jpg")
 //        imageView.contentMode = .scaleAspectFill
@@ -52,12 +60,11 @@ class ViewController: UIViewController {
         button.layer.shadowOffset = CGSize(width: 0, height: 1)
         button.layer.shadowRadius = 2
         button.addTarget(SecondViewController(), action: #selector(buttonClicked), for: .touchUpInside)
-        
         view.addSubview(button)
     }
     
     func buttonClicked() {
-        print("SEX")
+        self.navigationController?.pushViewController(SecondViewController(), animated: true)
     }
 }
 
@@ -96,6 +103,8 @@ class DescriptionView: UIView {
         contentLabel.lineBreakMode = .byTruncatingTail
         contentLabel.sizeToFit()
         addSubview(contentLabel)
+        
+        
     }
 }
 

@@ -18,10 +18,11 @@ class SecondViewController: UIViewController {
     }
     
     func setUI() {
-        let label = UILabel(frame: CGRect(x: 0, y: view.frame.height * 0.5 - 15, width: view.frame.width, height: 30))
+        let label = UILabel(frame: CGRect(x: view.frame.width * 0.5 - 50, y: view.frame.height * 0.5 - 15, width: 100, height: 30))
         label.text = "Welcome!!!"
         label.textColor = .white
         label.font = UIFont(name: "Noteworthy", size: 20.0)
         view.addSubview(label)
+        
     }
 }
